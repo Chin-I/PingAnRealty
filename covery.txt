@@ -1,0 +1,17 @@
+#Step1
+$ pip install coverage
+
+#Step2
+$ coverage run utest2.py
+{'I': {'deserve': {'to': {'be': 'hired'}}}}
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+
+#Step3
+$ coverage report utest2.py
+Name        Stmts   Miss  Cover
+-------------------------------
+utest2.py       7      0   100%
