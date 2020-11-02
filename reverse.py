@@ -22,7 +22,7 @@ def list_json(x, json):
         json = x[0]
         return list_json(x[1:],json)
 #########################################
-input_value = {
+"""input_value = {
   'hired': {
     'be': {
       'to': {
@@ -31,6 +31,7 @@ input_value = {
     }
   }
 }
+"""
 
 def reverse(input_value):
     j2l = json_list(input_value,[])
