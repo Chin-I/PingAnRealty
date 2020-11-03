@@ -7,16 +7,17 @@ To
 Step 1 import coverage library
 $ pip install coverage
 
-Step 2 run the unittest 
-$ coverage run utest2.py
+Step2 run code
+$ coverage run reversetest.py
 {'I': {'deserve': {'to': {'be': 'hired'}}}}
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
+
 OK
 
-Step 3 run the coverage %
-$ coverage report utest2.py
-Name        Stmts   Miss  Cover
--------------------------------
-utest2.py       7      0   100%
+Step3 See coverage
+$ coverage report reversetest.py
+Name             Stmts   Miss  Cover
+------------------------------------
+reversetest.py      28      0   100%
